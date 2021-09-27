@@ -1,0 +1,17 @@
+C:\Users\HP\Documents\dev-program-assessment\AssessmentConsole\bin\Debug\netcoreapp3.1\AssessmentConsole.exe
+C:\Users\HP\Documents\dev-program-assessment\AssessmentConsole\bin\Debug\netcoreapp3.1\AssessmentConsole.deps.json
+C:\Users\HP\Documents\dev-program-assessment\AssessmentConsole\bin\Debug\netcoreapp3.1\AssessmentConsole.runtimeconfig.json
+C:\Users\HP\Documents\dev-program-assessment\AssessmentConsole\bin\Debug\netcoreapp3.1\AssessmentConsole.runtimeconfig.dev.json
+C:\Users\HP\Documents\dev-program-assessment\AssessmentConsole\bin\Debug\netcoreapp3.1\AssessmentConsole.dll
+C:\Users\HP\Documents\dev-program-assessment\AssessmentConsole\bin\Debug\netcoreapp3.1\AssessmentConsole.pdb
+C:\Users\HP\Documents\dev-program-assessment\AssessmentConsole\bin\Debug\netcoreapp3.1\Assessment.dll
+C:\Users\HP\Documents\dev-program-assessment\AssessmentConsole\bin\Debug\netcoreapp3.1\Assessment.pdb
+C:\Users\HP\Documents\dev-program-assessment\AssessmentConsole\obj\Debug\netcoreapp3.1\AssessmentConsole.csproj.AssemblyReference.cache
+C:\Users\HP\Documents\dev-program-assessment\AssessmentConsole\obj\Debug\netcoreapp3.1\AssessmentConsole.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\HP\Documents\dev-program-assessment\AssessmentConsole\obj\Debug\netcoreapp3.1\AssessmentConsole.AssemblyInfoInputs.cache
+C:\Users\HP\Documents\dev-program-assessment\AssessmentConsole\obj\Debug\netcoreapp3.1\AssessmentConsole.AssemblyInfo.cs
+C:\Users\HP\Documents\dev-program-assessment\AssessmentConsole\obj\Debug\netcoreapp3.1\AssessmentConsole.csproj.CoreCompileInputs.cache
+C:\Users\HP\Documents\dev-program-assessment\AssessmentConsole\obj\Debug\netcoreapp3.1\AssessmentConsole.csproj.CopyComplete
+C:\Users\HP\Documents\dev-program-assessment\AssessmentConsole\obj\Debug\netcoreapp3.1\AssessmentConsole.dll
+C:\Users\HP\Documents\dev-program-assessment\AssessmentConsole\obj\Debug\netcoreapp3.1\AssessmentConsole.pdb
+C:\Users\HP\Documents\dev-program-assessment\AssessmentConsole\obj\Debug\netcoreapp3.1\AssessmentConsole.genruntimeconfig.cache

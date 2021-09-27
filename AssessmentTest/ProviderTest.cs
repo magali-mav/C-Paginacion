@@ -24,7 +24,7 @@ namespace AssessmentTest
         public void TestPipeSeparator()
         {
             string source = "a|b|c|d|e";
-            IElementsProvider<string> provider = new StringProvider();
+            IElementsProvider<string> provider = new PipeProvider();
             string [] expectedElements = {"a", "b", "c", "d", "e"};
             CollectionAssert.AreEqual(expectedElements, provider.ProcessData(source).ToList());
         }
@@ -33,7 +33,7 @@ namespace AssessmentTest
         public void TestSpaceSeparator()
         {
             string source = "a b c d e";
-            IElementsProvider<string> provider = new StringProvider();
+            IElementsProvider<string> provider = new SpaceProvider();
             string [] expectedElements = {"a", "b", "c", "d", "e"};
             CollectionAssert.AreEqual(expectedElements, provider.ProcessData(source).ToList());
         }

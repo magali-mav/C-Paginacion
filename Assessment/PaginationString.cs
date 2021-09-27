@@ -11,48 +11,60 @@ namespace Assessment
 
         public PaginationString(string source, int pageSize, IElementsProvider<string> provider)
         {
-            data = provider.ProcessData(source);
-            currentPage = 1;
+            data = provider.ProcessData(source);           
+            currentPage = 0;
             this.pageSize = pageSize;
         }
         public void FirstPage()
         {
-            currentPage = 1;
+            currentPage = 0;
         }
 
         public void GoToPage(int page)
         {
-            throw new System.NotImplementedException();
+            if (page > Pages()) {
+                throw new System.InvalidOperationException();
+            }
+            currentPage = page - 1;
+            //throw new System.NotImplementedException();
         }
 
         public void LastPage()
         {
-            throw new System.NotImplementedException();
+            currentPage = Pages() - 1;
+            //throw new System.NotImplementedException();
         }
 
         public void NextPage()
         {
-            
+            currentPage++;
         }
 
         public void PrevPage()
         {
-            throw new System.NotImplementedException();
+            currentPage--;
         }
 
         public IEnumerable<string> GetVisibleItems()
         {
-            return data.Skip(currentPage*pageSize).Take(5);
+            return data.Skip(currentPage*pageSize).Take(pageSize);
         }
 
+        public string imprimir(string separador) {
+            IEnumerable<string> lista = GetVisibleItems();
+            return System.String.Join(separador, lista.ToArray()); 
+        }
         public int CurrentPage()
         {
-            throw new System.NotImplementedException();
+            return currentPage;
         }
 
         public int Pages()
         {
-            throw new System.NotImplementedException();
+            //System.Diagnostics.Debug.Write("cantidad depaginas "+ (int)System.Math.Round((data.Count() / pageSize) + 0.5));
+            //return System.Math.Ceiling( data.Count() / pageSize);
+            return (int) System.Math.Round((data.Count() / pageSize)+0.5 );
+            //throw new System.NotImplementedException();
         }
     }
 }
